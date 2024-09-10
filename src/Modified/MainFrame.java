@@ -2,6 +2,7 @@ package Modified;
 
 import javax.swing.*;
 
+import DataBase.connClass;
 import HW2.ChiefManager;
 import HW2.DistanceDrone;
 import HW2.Drone;
@@ -10,7 +11,6 @@ import HW2.Manager;
 import HW2.Order;
 import HW2.Subscription;
 import HW2.systemDataBase;
-import HW4.connClass;
 
 import java.awt.event.*;
 import java.io.BufferedReader;
