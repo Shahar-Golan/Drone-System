@@ -1,18 +1,18 @@
-## Getting Started
+Drone System Project
+Description
+The Drone System is a comprehensive management system designed to handle various administrative and operational aspects of drone management. It facilitates the management of drones, managers, chief managers, and subscribers, integrating various functionalities through a user-friendly GUI.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Features
+User Authentication: Secure login for Chief Managers, Managers, and Subscribers with validation against a database.
+Manager and Subscriber Management: Allows addition and management of managers and subscribers including their specific drones and orders.
+Drone Management:
+Supports multiple types of drones including express and distance drones.
+Manage drone status and assign them to managers.
+Order Handling: Supports creating and managing orders for subscribers.
+Database Interaction: Robust database operations to handle data storage and retrieval.
+Dynamic GUI: Interactive graphical user interface for managing the system efficiently.
+Technologies Used
+Java: Core programming language.
+Swing: For creating graphical user interface components.
+SQL: For database interactions.
+File Handling: For persistence of managers and subscribers beyond the database scope.
